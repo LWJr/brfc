@@ -215,25 +215,17 @@
               <h4 class="mt-0 pt-5"> Make One-Time Donation with Paypal</h4>
             <p>Please use the form below to pay your desired giving amount.</p>
 			<p>Contributions to the Black Rose Foundation for Children are tax-deductible.</p>
-            <hr>
-            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C9R8RJSJ7QHS4" target="_blank" method="post">
-              <input type="hidden" name="cmd" value="_donations">
-              <input type="hidden" name="business" value="blackrosefoundation@yahoo.com">
-              <input type="hidden" name="item_name" value="BRFC Donation">
-              <input type="hidden" name="no_shipping" value="1">
-              <input type="hidden" name="cn" value="Comments...">
-              <input type="hidden" name="currency_code" value="USD">
-              <input type="hidden" name="tax" value="0">
-              <input type="hidden" name="lc" value="US">
-              <input type="hidden" name="bn" value="PP-DonationsBF">
-              <input type="hidden" name="return" value="http://www.yoursite.com/thankyou.html">
-              <input type="hidden" name="cancel_return" value="http://www.yoursite.com/paymentcancel.html">
-              <input type="hidden" name="notify_url" value="http://www.yoursite.com/notifypayment.php">
-				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C9R8RJSJ7QHS4" target="_blank">
-              <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"></a>
-            </form>
-              <!-- ===== END: Paypal Both Onetime/Recurring Form ===== -->              
+            <div data-example-id="single-button-dropdown" class="btn-group bs-example pull-left">
+             <button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-theme-colored dropdown-toggle mt-10" type="button">
+    Donate 
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C9R8RJSJ7QHS4" target="_blank">Black Rose Foundation for Children</a></li>
+      <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L522QDZ2YYDRN" target="_blank">Moore-Myers Children's Fund</a></li>
+	  <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AEL842MHDC2GQ" target="_blank">Dr. Mary McLeod Bethune Scholarship</a></li>
+      <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W3V9HPGJD8LCY" target="_blank">James V. Brooks Memorial Scholarship</a></li>
+    </ul>
+            </div>              
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6">
  			<div class="widget border-1px p-30">
